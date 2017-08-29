@@ -1,0 +1,125 @@
+/*pageMenu*/
+.pageMenu{
+	width: 1180px;
+	min-width: 1180px;
+	margin: 0 auto;
+}
+.pageMenu div{
+	padding: 0 5px;
+	margin-top: -220px;
+	position: relative;
+	z-index: 12;
+	margin-bottom: 74px;
+}
+.pageMenu img{
+	float: left;
+	width: 390px;
+	height: 220px;
+}
+/*swiper-container*/
+.swiper{
+	width: 1180px;
+	min-width: 1180px;
+	margin: 0 auto;
+}
+.swiperTitle{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	color: #0f5baa;
+	margin-bottom: 60px;
+}
+.swiperTitle span{
+	display: inline-block;
+	position: relative;
+	font-size: 22px;
+}
+.swiperTitle span em{
+	display: block;
+	position: absolute;
+	top: 16px;
+	width: 60px;
+	height: 1px;
+	background-color: #999;
+}
+.swiperTitle span em.hrLeft{
+	left: -76px;
+}
+.swiperTitle span em.hrRight{
+	right: -76px;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+    cursor: default;
+}
+.swiper-container{
+	margin-bottom: 80px;
+}
+
+/*product*/
+.product .productBox{
+	background-image: url(/public/templates/Default/images/product_06.jpg);
+	background-size: cover;
+	margin-bottom: 74px;
+}
+
+/*brand*/
+.brand{
+	width: 1180px;
+	min-width: 1180px;
+	margin: 0 auto;
+}
+.brand ul{
+	margin-bottom: 21px;
+}
+.brand li{
+	width: 21%;
+	float: left;
+	padding: 0 2%;
+	margin-bottom: 66px;
+	opacity: 0.2;
+	filter:alpha(opacity=20);
+}
+.brand li:hover{
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+.brand li img{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+/*按钮左右键*/
+.swiper-button-prev{
+	background: url(/public/templates/Default/images/lban.png) no-repeat 0 0px !important;
+	height: 23px;
+}
+.swiper-button-prev:hover{
+	background: url(/public/templates/Default/images/lban.png) no-repeat 0 -69px !important;
+	height: 23px;
+}
+.swiper-button-next{
+	background: url(/public/templates/Default/images/lban.png) no-repeat 0 -23px !important;
+	height: 23px;
+}
+.swiper-button-next:hover{
+	background: url(/public/templates/Default/images/lban.png) no-repeat 0 -46px !important;
+	height: 23px;
+}
+
+.banner .bannerBox{
+			height: auto;
+		}
+		.swiper-slide{
+			border-right: 1px solid #e5e5e5;
+		}
+		.swiper-slide:last-child{
+			border-right: 1px solid transparent;
+		}
+		.swiper-slide img{
+			vertical-align: bottom;
+			width: 100%;
+			height: auto;
+		}
+
+.z div.swiper-slide a img:hover{padding-right: 20px !important;box-sizing: border-box}

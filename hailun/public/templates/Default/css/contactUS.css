@@ -1,0 +1,24 @@
+.map{
+	width: 1180px;
+	min-width: 1180px;
+	margin: 0 auto;
+}
+.map div{
+	width: 50%;
+	float: left;
+	height: auto;
+	color: #383838;
+	padding: 150px 0 187px;
+}
+.map div h5{
+	margin: 0;
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+.map div p{
+	font-size: 14px;
+}
+.map img{
+	width: 50%;
+	padding: 150px 0 187px;
+}

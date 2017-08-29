@@ -1,0 +1,18 @@
+div>h3{
+    font: 30px "微软雅黑";
+    text-align: center;
+}
+div .time,div .yinzi{
+    margin: 0;
+    padding: 0;
+    font: 16px "微软雅黑";
+    text-align: center;
+}
+div div.img{
+    margin-top: 40px;
+    text-align: center;
+}
+div p.wzms{
+   padding: 30px 96px 0 96px;
+    font: 16px "微软雅黑";
+}

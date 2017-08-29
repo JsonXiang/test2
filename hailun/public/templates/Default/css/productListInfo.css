@@ -1,0 +1,46 @@
+.productListInfo{
+	width: 600px;
+	margin: 0 auto;
+}
+.productListInfo_title{
+	font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+}
+/*修改背景颜色*/
+.productListInfo_footer{
+background-color: #e5eef6;
+}
+.productListInfo_footer a{
+	color: #333333;
+	text-decoration: none;
+}
+.productListInfo_footer a:hover{
+	text-decoration: underline;
+}
+
+/*.swiper-container .swiper-wrapper .swiper-button-prev{*/
+	/*background: url(../images/productListInfo01.jpg) no-repeat;*/
+/*}*/
+/*.swiper-container .swiper-wrapper .swiper-button-next{*/
+	/*background: url(../images/productListInfo02.jpg) no-repeat;*/
+/*}*/
+
+/*../../public/images/product_06.jpg*/
+/*轮播左右按钮换背景图片*/
+.swiper-button-prev{
+	background: url(../images/productListInfo01.jpg) no-repeat !important;
+	width: 29px !important;
+	height: 85px !important;
+}
+.swiper-button-next{
+	background: url(../images/productListInfo02.jpg) no-repeat !important;
+	width: 29px !important;
+	height: 85px !important;
+}
+.productListInfo_detail,.productListInfo_footer{
+	width: 602px;
+	margin: 0 auto;
+}

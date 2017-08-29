@@ -1,0 +1,44 @@
+/*tab*/
+/*.swaper-tab, .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	width: 80%;
+    margin: 0 10%;
+}*/
+.swiper-container{
+	padding-top: 0;
+}
+.swaper-tab li, .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	width: 50%;
+}
+.page-box{
+	text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.trademark li div{
+	float: left;
+	background-color: #003057;
+	color: #fff;
+	padding: 8px 15px;
+	width: 345px;
+}
+.trademark li div:hover{
+	background-color: #089BE8;
+}
+.trademark li div .newsTitle{
+	font-size: 14px;
+	
+}
+.trademark li div .newsTime{
+	font-size: 12px;
+}
+/*新闻详情页*/
+div.page div.tab ul.swaper-tab{
+	width: 915px;
+	left: 57%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	width: 915px;
+	left: 57%;
+}
